@@ -1,0 +1,47 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    color: rgb(245,245,245);
+    background-color: rgb(25, 25, 25);
+}
+header {
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    padding: 5px;
+
+    border-radius: 5px;
+}
+aside, footer, section {
+    display: block;
+    min-height: 100px;
+    background-color: rgb(14, 14, 14);
+    padding: 5px;
+    border-radius: 5px;
+}
+aside, footer, main {
+    margin: 5px;
+}
+main {
+    width: calc(100% - 250px - 30px);
+    float: right;
+    overflow-y: auto;
+    height: 510px;
+}
+aside {
+    width: 250px;
+    float: left;
+    overflow-wrap: anywhere;
+    height: 500px;
+}
+footer {
+    clear: both;
+}
+hr {
+    border: solid 1px rgb(14, 14, 14);
+}
+.arkusz {
+    border: solid 2px rgb(25, 25, 25);
+    display: block;
+    width: 100%;
+}
